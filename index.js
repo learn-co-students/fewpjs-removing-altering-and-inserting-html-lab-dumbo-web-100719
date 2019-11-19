@@ -4,10 +4,11 @@ document.querySelector('main').remove();
 
 let newHeader = document.createElement('h1');
 newHeader.id = 'victory';
-newHeader.innerText = "Stephen is the champion";
+newHeader.innerHTML = 'YOUR-NAME is the champion';
 
 document.querySelector('body').append(newHeader);
 
+console.log(newHeader)
 
 // // // READ
 // let emojisUL = document.querySelector("ul")
